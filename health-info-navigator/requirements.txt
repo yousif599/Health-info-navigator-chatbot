@@ -1,0 +1,9 @@
+# Pin exact versions once the code works (pip freeze).
+fastapi
+uvicorn
+pydantic
+python-dotenv
+openai
+chromadb
+sentence-transformers
+pytest

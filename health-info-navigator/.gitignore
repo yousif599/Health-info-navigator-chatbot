@@ -1,0 +1,22 @@
+# Secrets: never commit keys
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Generated search index (rebuild with: python scripts/ingest.py)
+chroma_db/
+
+# Downloaded raw source files (keep only the cleaned JSON)
+data/raw/*
+!data/raw/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
